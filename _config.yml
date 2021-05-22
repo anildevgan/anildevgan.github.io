@@ -1,1 +1,204 @@
-theme: jekyll-theme-slate
+# Site
+#repository: anildevgan/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Anil Kumar
+title: Senior Java Developer
+email: anil.devgan91@gmail.com
+website: https://anildevgan.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: jekyll
+github_username:  anildevgan
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: anil-devgan-a6360b58
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: HackerRank
+  icon: fas fa-globe
+  url: https://www.hackerrank.com/anildevgan?hr_r=1
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Dear Reader, My name is Anil and I am a Senior Java Developer having 8.5 years of experience in developing Web,
+    Enterprise applications and Cloud native microservices 
+     using Java, Spring Boot, Hibernate, Restful Web Services and Cloud technologies
+      following agile practices in a fast-paced environment.
+       I am a good Team player experienced in coordinating on-site and offshore team members
+        and adaptive to learn new technologies.      
+#I am most skilled in: <mark>Java</mark>
+
+content:
+  - title: Professional Summary
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Technology Stack that I have Hands on Experience in are following:
+      - Spring, Spring Boot, Spring Cloud(Service Discovery, Config server, Zuel, Ribbon, Hystrix,ZipKin) and Hibernate Frameworks.
+      - Cloud Technologies Amazon Web Services and Microsoft Azure Cloud Technologies which include Azure DevOps, Azure Kubernetes Service, Azure CosmoDB, Azure Blob Storage, Azure Event Hub, Azure Key Vault, Azure Container registry, Azure Service Bus, Azure Data Factory.
+      - Creating scalable and cloud native Restful Webservices using Spring Boot and Spring Data JPA.
+      - Building Docker images.
+      - Deploying and Scale applications on Kubernetes Clusters.
+      - Configuring and Integrating Apache Kafka, Apache Solr, Elastic Search with Spring Boot.
+      - Building Microservices architecture.
+      - Implemented Redis cache and Ehcache for performance improvement of applications.
+      - Creating CI/CD pipelines using Azure DevOps, Bamboo Server.
+      - Integrate and Monitoring Applications using Datadog and Dynatrace.
+      - Securing REST API using Spring Security with Oauth 2.0 Flows.
+      - Building projects using Maven, and Gradle build tools.
+      - Hands on experience on IOT framework (Thingworx).
+      - Project version control using SVN, Clear Case, Github, GitLab, Azure Repos, Stash and Bitbucket.
+      - Experience in using project management tools Redmine, MAXIT, JIRA, Confluence.
+      - Experience in both SQL and NOSQL databases which include Oracle, Postgres, MySQL, MongoDb, and CosmoDB.
+      - Consuming Restful Web Services. (IBM Watson, TeamViewer, Vodafone, Verizon, Twitter, Facebook, LinkedIn, Gmail, Xstream, Twilio, TextKernel, Climate Field View)
+      - Decoding data from Google’s Protobuf format.
+      - Using SonarQube tool for improving code quality.
+      - Experience in coordinating on-site and off-site team members to build and deploy releases ontime.
+      - Good Team player and also have the ability to work independently.
+      - Continue to Educate myself through Udemy (AWS), Pluralsight (Spring Cloud), LinkedIn Learning.
+      - Adaptive to learn new technologies.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Infosys Limited.
+        link: https://www.infosys.com/
+        # link_text: boringcompany.com
+        sub_title: Technology Analyst (Senior Java Developer)
+        caption: September 2017 - Present
+        quote: >
+          Infosys Limited is an Indian multinational information technology company that provides business consulting, information technology and outsourcing services. The company is headquartered in Bangalore.
+        description: | # this will include new lines to allow paragraphs
+            - Creating cloud native microservices from monolithic applications. 
+            - Create Cloud native Secure Restful Webservices using Spring Boot, Java, Spring Data JPA, Oauth 2.0 and other frameworks. 
+            - Document API's using Swagger
+            - Implement Pagination,Sorting and Parial Updates (Json Patch) of the Rest resources.
+            - Dockerize aplications usig Bamboo Server, scale and deploy them on Kubernetes Clusters using CI/CD.
+            - Implement caching in existing applications for performance improvements.
+            - Follow agile practices and project management tools like Jira and Confluence.
+      - layout: left
+        title: IBM India Private Limited.
+        link: https://www.ibm.com/in-en
+        # link_text: boringcompany.com
+        sub_title: Application Developer
+        caption: October 2015 - September 2017
+        quote: >
+          IBM India Private Limited is the Indian subsidiary of IBM.
+        description: | # this will include new lines to allow paragraphs
+            - Creating cloud native microservices from monolithic applications. 
+            - Create Cloud native Secure Restful Webservices using Spring Boot, Java, Spring Data JPA, Oauth 2.0 and other frameworks. 
+            - Document API's using Swagger
+            - Implement Pagination,Sorting and Parial Updates (Json Patch) of the Rest resources.
+            - Dockerize aplications usig Bamboo Server, scale and deploy them on Kubernetes Clusters using CI/CD.
+            - Implement caching in existing applications for performance improvements.
+            - Follow agile practices and project management tools like Jira and Confluence.
+      - layout: left
+        title: Redblink Private Limited.
+        link: https://redblink.com/
+        # link_text: boringcompany.com
+        sub_title: Java Developer
+        caption: January 2013 - October 2015 
+        quote: >
+          RedBlink Technologies is uniquely suited to revolutionize your business and meet the upcoming challenges in the IT world.
+        description: | # this will include new lines to allow paragraphs
+            - Created a online employment platform that allows job seekers and employers to connect with one another based on experience, skill set, and qualifications, in addition to personality and company cultural fit.
+            - Java, Apache Solr, MySQL. 
+            - Document API's using Swagger
+            - Implement Pagination,Sorting and Parial Updates (Json Patch) of the Rest resources.
+            - Dockerize aplications usig Bamboo Server, scale and deploy them on Kubernetes Clusters using CI/CD.
+            - Implement caching in existing applications for performance improvements.
+            - Follow agile practices and project management tools like Jira and Confluence.
+
+
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Punjab Technical University
+        caption: 2008 - 2012
+        sub_title: Bachelor of Technology(Information Technology)
+        link: https://ptu.ac.in/
+        quote: >
+          PTU is a State Government University established by Government of Punjab.
+        description: | # this will include new lines to allow paragraphs
+          I graduated with a Degree in Bachelor of Technology specifiaction in 
+          Information Technology the from Punjab Technical University. I attended from 2008-2012 and got 83.6% marks. During my time at University I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Achievements:
+      - Achieved 1st rank in HackerRank in Java Domain by solving various coding challenges.
+      - Got Certificate of Appreciation from IBM for my project CAF Ware House, also got selected for Six Sigma White Belt. Which helped Client by generating revenue of 300000 INR monthly.
+      - Got scholarship from Punjab School Education Board.
+      - Secured 1st place in college in the final examination of 2nd Semester.
+
+      MongoDB Certificate:
+
+      ![MongoDB](/images/mdb.jpg "MongoDB"){:height="400" width="600"}
+
+      HackerRank Problem Solving Certificate:
+
+      ![HackerRank](/images/hr.jpg "HackerRank"){:height="400" width="600"}
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
