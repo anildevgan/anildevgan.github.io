@@ -97,12 +97,17 @@ content:
         quote: >
           Infosys Limited is an Indian multinational information technology company that provides business consulting, information technology and outsourcing services. The company is headquartered in Bangalore.
         description: | # this will include new lines to allow paragraphs
-            - Creating cloud native microservices from monolithic applications. 
-            - Create Cloud native Secure Restful Webservices using Spring Boot, Java, Spring Data JPA, Oauth 2.0 and other frameworks. 
-            - Document API's using Swagger
+            - Technologies used Java, Spring Framework, Microsoft Azure, AWS
+            - Creating scalable and cloud native secure microservices using Spring Boot Java, Spring Data JPA, Oauth 2.0 and other frameworks.
+            - Break monolithic applications into microservices.
+            - Dockerize, deploy and scale applications on Kubernetes Clusters.
+            - Creating CI/CD pipelines using Azure DevOps, Gitlab CI/CD and Bamboo Server.
             - Implement Pagination,Sorting and Parial Updates (Json Patch) of the Rest resources.
-            - Dockerize aplications usig Bamboo Server, scale and deploy them on Kubernetes Clusters using CI/CD.
-            - Implement caching in existing applications for performance improvements.
+            - Implemented Redis cache and Ehcache for performance improvement of applications.
+            - Integrate and Monitoring Applications using Datadog and Dynatrace.
+            - Securing REST API using Spring Security with Oauth 2.0 Flows.
+            - Document API's using Swagger
+            - Building projects using Maven, and Gradle build tools.
             - Follow agile practices and project management tools like Jira and Confluence.
       - layout: left
         title: IBM India Private Limited.
@@ -113,13 +118,13 @@ content:
         quote: >
           IBM India Private Limited is the Indian subsidiary of IBM.
         description: | # this will include new lines to allow paragraphs
-            - Creating cloud native microservices from monolithic applications. 
-            - Create Cloud native Secure Restful Webservices using Spring Boot, Java, Spring Data JPA, Oauth 2.0 and other frameworks. 
-            - Document API's using Swagger
-            - Implement Pagination,Sorting and Parial Updates (Json Patch) of the Rest resources.
-            - Dockerize aplications usig Bamboo Server, scale and deploy them on Kubernetes Clusters using CI/CD.
-            - Implement caching in existing applications for performance improvements.
-            - Follow agile practices and project management tools like Jira and Confluence.
+            - Technologies used Java, Spring Framework, Oracle.
+            - Created backend for an application for CRUD operations as well as Bulk Upload of Data.
+            - Implemented backend of an IVR application to reduce load on client call centers.
+            - Implemented algorithm for deduping check for activations of services.
+            - Worked on USSD (feature codes) based utility for showing relevant data to consumers.
+            - Worked on backend on an application for provisioning.
+            - Worked on application for retailers for removing manual dependencies for helpdesk.
       - layout: left
         title: Redblink Private Limited.
         link: https://redblink.com/
@@ -129,12 +134,14 @@ content:
         quote: >
           RedBlink Technologies is uniquely suited to revolutionize your business and meet the upcoming challenges in the IT world.
         description: | # this will include new lines to allow paragraphs
-            - Created a online employment platform that allows job seekers and employers to connect with one another based on experience, skill set, and qualifications, in addition to personality and company cultural fit.
-            - Java, Apache Solr, MySQL. 
-            - Document API's using Swagger
-            - Implement Pagination,Sorting and Parial Updates (Json Patch) of the Rest resources.
-            - Dockerize aplications usig Bamboo Server, scale and deploy them on Kubernetes Clusters using CI/CD.
-            - Implement caching in existing applications for performance improvements.
+            - Technologies used Java, Spring Framework, Apache Solr, MySQL, Primefaces.
+            - Created an online employment platform that allows job seekers and employers to connect with each other based on experience, skill set, and qualifications, in addition to personality and company cultural fit.
+            - Integrated SSO using LinkedIn, Facebook.
+            - Implemented questionnaire for Jobseeker and Employer in application and created a matching algorithm for showing matching candidates to employers and vice versa.
+            - Integrated TextKernal API for parsing Jobseeker's resume and extracting his skills, education, personal information.
+            - API Integrations for IBM Watson, Twitter, Gmail for generating personality traits of a Job Seeker.
+            - Implemented Interview Module inside application where Employer and Jobseeker can connect.
+            - Added Twilio API's based Sms and Email notifications service for all communication outside application.
             - Follow agile practices and project management tools like Jira and Confluence.
 
 
